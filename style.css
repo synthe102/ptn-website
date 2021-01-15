@@ -1,0 +1,92 @@
+/*CSS Reset stylesheet.*/
+
+*
+{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/*Actual stylesheet.*/
+
+body
+{
+  margin: 0;
+  padding: 0;
+  background: url(images/red_background.jpg) no-repeat fixed;
+  background-size: cover;
+  color: white;
+}
+
+p
+{
+  text-align: center;
+  font-size: 0.8em;
+}
+
+#topsection {
+  background-color: white;
+  color: #D02120;
+}
+
+a {
+  text-decoration: none;
+  color: #D02120;
+}
+
+a:visited {
+  color: #D02120;
+}
+
+a:focus {
+  color: #D02120;
+}
+
+header
+{
+  display: flex;
+  padding-left: 30px;
+  font-family: 'FuturaBoldItalic';
+  font-size: 3em;
+  justify-content: space-between;
+  vertical-align: middle;
+}
+
+nav {
+  font-family: 'FuturaMedium';
+  display: flex;
+  font-size: 0.6em;
+}
+
+nav a {
+  margin-right: 15px;
+  padding-top: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+
+nav i {
+  margin-right: 15px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+@font-face {
+  font-family: 'FuturaBoldItalic';
+  src: url('fonts/FuturaBoldItalic.ttf');
+}
+
+@font-face {
+  font-family: 'FuturaMedium';
+  src: url('fonts/FuturaMedium.ttf');
+}
+
+@font-face {
+  font-family: 'FuturaLight';
+  src: url('fonts/FuturaLight.ttf');
+}
